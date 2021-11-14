@@ -1,0 +1,30 @@
+{
+    "name": "cursomvc/udemy",
+    "description": "curso de MVC da plataforma UDEMY",
+    "type": "proprietary",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Cursomvc\\Udemy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "FL Nandes D.I.M",
+            "email": "flservice2000@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":"app/",
+            "core\\":"core//"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    }
+}
